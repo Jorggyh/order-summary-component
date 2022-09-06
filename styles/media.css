@@ -30,7 +30,7 @@
   }
   
   a {
-    margin-left: 9.8rem;
+    margin-left: 9.5rem;
   }
   
   button[type='submit'] {
@@ -38,6 +38,6 @@
   }
   
   button[type='reset'] {
-    margin-top: 3.2rem;
+    margin-top: 3.3rem;
   }
 }
