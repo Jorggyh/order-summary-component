@@ -1,0 +1,44 @@
+@media screen and (min-width: 500px) {
+	body {
+		background: top center repeat-x var(--bg-light) url('../img/pattern-background-desktop.svg');
+		background-size: 1500px;
+	}
+
+	main {
+		min-width: 45rem;
+		min-height: 69.7rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		padding: 4rem 0 2rem;
+	}
+
+	p {
+		font-size: 1.7rem;
+	}
+
+	.plan {
+		margin: 2rem 4.9rem 3.2rem;
+		padding: 2.3rem 2.3rem 2.3rem;
+	}
+
+	.price p,
+	strong {
+		font-size: 1.7rem;
+		line-height: 2.6rem;
+	}
+
+	a {
+		font-size: 1.5rem;
+		padding-left: 8.2rem;
+	}
+
+	button[type='submit'] {
+		width: 35.2rem;
+	}
+
+	button[type='reset'] {
+		margin-top: 3.2rem;
+	}
+}

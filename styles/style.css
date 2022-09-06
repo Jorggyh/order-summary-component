@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%; /* 10px = 1rem */
+}
+
+:root {
+	--pale-blue: hsl(225, 100%, 94%);
+	--right-blue: hsl(245, 75%, 52%);
+	--very-pale-blue: hsl(225, 100%, 98%);
+	--bg-light: #e4e7fa;
+	--desaturated-blue: hsl(224, 23%, 55%);
+	--dark-blue: hsl(223, 47%, 23%);
+	--purple: #746aec;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	background: top right repeat-x var(--bg-light) url('../img/pattern-background-mobile.svg');
+	background-size: 560px;
+}
+
+main {
+	width: 32.7rem;
+	height: 56.7rem;
+	border-radius: 2rem;
+	background-color: white;
+	box-shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
+}
+
+img {
+	width: 100%;
+	border-radius: 2rem 2rem 0 0;
+}
+
+h1 {
+	font-size: 2.4rem;
+	padding: 2.8rem 0 1.5rem;
+	color: var(--dark-blue);
+	font-weight: 900;
+}
+
+p {
+	font-size: 1.4rem;
+	line-height: 2.5rem;
+	padding: 0 4.5rem;
+	color: var(--desaturated-blue);
+}
+
+.plan {
+	display: flex;
+	align-items: center;
+	margin: 2.3rem 2.5rem 2.5rem;
+	padding: 1.6rem 1.5rem;
+	background-color: var(--very-pale-blue);
+	border-radius: 1rem;
+}
+
+.plan img {
+	height: 4.8rem;
+	width: auto;
+	padding-right: 2rem;
+}
+
+.price p {
+	font-size: 1.4rem;
+	line-height: 2.2rem;
+	text-align: left;
+	padding: 0;
+}
+
+strong {
+	font-size: 1.4rem;
+	font-weight: 900;
+	color: var(--dark-blue);
+	letter-spacing: -0.02rem;
+}
+
+a {
+	font-size: 1.3rem;
+	font-weight: 900;
+	color: var(--right-blue);
+	padding-left: 4.7rem;
+}
+
+a:hover {
+	color: var(--purple);
+	text-decoration: none;
+}
+
+button {
+	font-weight: 700;
+	font-family: 'Red Hat Display', sans-serif;
+	border: none;
+}
+
+button[type='submit'] {
+	font-size: 1.5rem;
+	width: 27.7rem;
+	height: 5rem;
+	border-radius: 1rem;
+	background-color: var(--right-blue);
+	color: var(--very-pale-blue);
+	box-shadow: var(--purple) 0 6px 30px -5px;
+}
+
+button[type='reset'] {
+	font-size: 1.6rem;
+	font-weight: 900;
+	border: none;
+	color: var(--desaturated-blue);
+	background-color: transparent;
+	margin-top: 2.2rem;
+}
+
+button {
+	cursor: pointer;
+}
+
+button[type='submit']:hover {
+	background-color: var(--purple);
+}
+
+button[type='reset']:hover {
+	color: var(--dark-blue);
+}
