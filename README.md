@@ -1,7 +1,7 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor - Order summary card solution
 
 This is a solution to
-the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
+the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 . Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -12,7 +12,6 @@ the [NFT preview card component challenge on Frontend Mentor](https://www.fronte
     - [Links](#links)
 - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -26,16 +25,16 @@ Users should be able to:
 
 ### Screenshot
 
-| Mobile                    | Hover effect              |
-|---------------------------|---------------------------|
-| ![](/img/screenshot1.png) | ![](/img/screenshot2.png) |
+| Mobile                          | Desktop      |
+|---------------------------------|-------------------------------|
+| ![](/img/screenshot-mobile.png) | ![](/img/screenshot-desktop.png) |
 
 ### Links
 
 - Solution
-  URL: [https://www.frontendmentor.io/solutions/maximum-effort-oeh01U4f3r](https://www.frontendmentor.io/solutions/maximum-effort-oeh01U4f3r)
+  URL: []()
 - Live Site
-  URL: [https://jorggyh.github.io/nft-preview-card-component/](https://jorggyh.github.io/nft-preview-card-component/)
+  URL: [https://jorggyh.github.io/order-summary-component/](https://jorggyh.github.io/order-summary-component/)
 
 ## My process
 
@@ -44,11 +43,7 @@ Users should be able to:
 - Semantic HTML5
 - CSS
 - Flexbox
-
-### What I learned
-
-This effect of hovering the mouse over the image, and an icon appears with a half-transparent background color was new
-to me, I had never done it before, it was interesting to find out how to do it.
+- Mobile-first workflow
 
 ## Author
 
