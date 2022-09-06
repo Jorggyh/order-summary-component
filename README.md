@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution
-  URL: []()
+  URL: [https://www.frontendmentor.io/solutions/easy-qtU-16v8dB](https://www.frontendmentor.io/solutions/easy-qtU-16v8dB)
 - Live Site
   URL: [https://jorggyh.github.io/order-summary-component/](https://jorggyh.github.io/order-summary-component/)
 
