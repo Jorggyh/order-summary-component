@@ -98,12 +98,12 @@ a:hover {
 }
 
 button {
-  font-weight: 900;
   font-family: 'Red Hat Display', sans-serif;
   border: none;
 }
 
 button[type='submit'] {
+  font-weight: 900;
   font-size: 1.5rem;
   width: 27.7rem;
   height: 5rem;
@@ -114,6 +114,7 @@ button[type='submit'] {
 }
 
 button[type='reset'] {
+  font-weight: 700;
   font-size: 1.6rem;
   border: none;
   color: var(--desaturated-blue);
@@ -131,4 +132,5 @@ button[type='submit']:hover {
 
 button[type='reset']:hover {
   color: var(--dark-blue);
+  font-weight: 900;
 }
